@@ -1,0 +1,81 @@
+*
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+.corpo
+    {
+        background-color: bisque;
+        padding: 16px;
+        width: 100wh;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr; 
+        gap: 16px;
+    }
+
+.cabecalho
+    {
+        background-color: chartreuse;
+        border-radius: 15px;
+        grid-column: span 2;
+    }
+
+.canto-esquerdo
+    {
+        background-color: aqua;
+        border-radius: 15px;
+        grid-row: 4;
+        grid-column: 1;
+    }
+
+.direita
+    {
+        background-color: black;
+        border-radius: 15px;
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+.meio
+    {
+        background-color: brown;
+        border-radius: 15px;
+        grid-column: span 4;        
+    }
+
+.esquerda
+    {
+        background-color: darkgreen;
+        border-radius: 15px;
+        grid-row: 2;
+        grid-column: span 2;        
+    }
+
+.baixo-1
+    {
+        background-color: gold;
+        border-radius: 15px;
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    .baixo-2
+    {
+        background-color: deeppink;
+        border-radius: 15px;
+        grid-column: 3;
+        grid-row: 4;
+    }
+
+    .baixo-3
+    {
+        background-color: blueviolet;
+        border-radius: 15px;
+        grid-column: 4;
+        grid-row: 4;
+    }
+
